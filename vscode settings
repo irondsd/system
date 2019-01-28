@@ -1,0 +1,13 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "python.pythonPath": "/usr/local/bin/python3.7",
+    "workbench.colorTheme": "Material Theme Darker",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.wordWrap": true,
+    "explorer.confirmDelete": false,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402,F841,F401,E302,E305",
+    ],
+}
