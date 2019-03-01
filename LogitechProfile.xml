@@ -1,0 +1,3409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles xmlns="http://www.logitech.com/Cassandra/2010.7/Profile">
+  <profile gkeysdk="0" guid="{09D92D75-3C8C-4723-B06C-4090BCB899C0}" lock="0" name="Default Profile">
+    <description></description>
+    <target path=""/>
+    <signature key="" value="" executable="" name=""/>
+    <macros>
+      <macro original="true" guid="{DCF50AE2-0000-4381-0002-4F0F5A9E9803}" hidden="false" name="1">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="1"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0001-4381-0002-4F0F5A9E9803}" hidden="false" name="2">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="2"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0007-4381-0002-4F0F5A9E9803}" hidden="false" name="3">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="3"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0008-4381-0002-4F0F5A9E9803}" hidden="false" name="4">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="4"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0016-4381-0002-4F0F5A9E9803}" hidden="false" name="6">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="6"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0017-4381-0002-4F0F5A9E9803}" hidden="false" name="7">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="7"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0018-4381-0002-4F0F5A9E9803}" hidden="false" name="8">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="8"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-001C-4381-0002-4F0F5A9E9803}" hidden="false" name="A">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="A"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0006-4381-0001-4F0F5A9E9803}" hidden="false" name="AIMP">
+        <shortcut xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Shortcut">
+          <start workingdir="C:\Utilities\AIMP\" url="C:\Utilities\AIMP\AIMP2.exe"/>
+        </shortcut>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0014-4381-0002-4F0F5A9E9803}" hidden="false" name="Alt">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LALT"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0003-4381-0001-4F0F5A9E9803}" hidden="false" name="Autoruns">
+        <shortcut xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Shortcut">
+          <start workingdir="C:\Utilities\Starter\" url="C:\Utilities\Starter\autoruns.exe"/>
+        </shortcut>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0011-4381-0002-4F0F5A9E9803}" hidden="false" name="C">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="C"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0007-4381-0001-4F0F5A9E9803}" hidden="false" name="Calculator">
+        <shortcut xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Shortcut">
+          <start workingdir="&quot;H:\Files\My Projects\Calculator\&quot;" url="&quot;H:\Files\My Projects\Calculator\Calculator.exe&quot;"/>
+        </shortcut>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0013-4381-0002-4F0F5A9E9803}" hidden="false" name="Ctrl">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LCTRL"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0010-4381-0001-4F0F5A9E9803}" hidden="false" name="Ctrl + Alt + M">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="M"/>
+          <modifier value="LCTRL"/>
+          <modifier value="LALT"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0000-4381-0101-4F0F5A9E9803}" hidden="false" name="Ctrl + Shift + Alt">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LCTRL"/>
+          <modifier value="LSHIFT"/>
+          <modifier value="LALT"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-000F-4381-0001-4F0F5A9E9803}" hidden="false" name="Ctrl + Shift + Alt + O">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="O"/>
+          <modifier value="LCTRL"/>
+          <modifier value="LSHIFT"/>
+          <modifier value="LALT"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-000D-4381-0001-4F0F5A9E9803}" hidden="false" name="Ctrl + Shift + Alt + T">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="T"/>
+          <modifier value="LCTRL"/>
+          <modifier value="LSHIFT"/>
+          <modifier value="LALT"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-000B-4381-0002-4F0F5A9E9803}" hidden="false" name="D">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="D"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0004-4381-0002-4F0F5A9E9803}" hidden="false" name="E">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="E"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-000C-4381-0002-4F0F5A9E9803}" hidden="false" name="F">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="F"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-000D-4381-0002-4F0F5A9E9803}" hidden="false" name="G">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="G"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{70908FFC-32CC-4129-863C-1D5D75831DB8}" hidden="false" name="Lyrics">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LALT"/>
+          <key direction="down" value="O"/>
+          <key direction="up" value="O"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="up" value="LALT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="T"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="T"/>
+          <key direction="down" value="L"/>
+          <key direction="up" value="L"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0011-4381-0001-4F0F5A9E9803}" hidden="false" name="Num /">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="NUMSLASH"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0011-4381-0201-4F0F5A9E9803}" hidden="false" name="Num Lock">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="NUMLOCK"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0004-4381-0001-4F0F5A9E9803}" hidden="false" name="Photo Resizer">
+        <shortcut xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Shortcut">
+          <start workingdir="&quot;C:\Utilities\FastStone Photo Resizer\&quot;" url="&quot;C:\Utilities\FastStone Photo Resizer\FSResizer.exe&quot;"/>
+        </shortcut>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0002-4381-0002-4F0F5A9E9803}" hidden="false" name="Q">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="Q"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{EE0FD4DF-6B8F-4B33-BD4E-3F9B96F16EDA}" hidden="false" name="QuickMacro">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="2"/>
+          <key direction="up" value="2"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{AB4F7E22-8807-434F-8E4E-EAA267C9B5E5}" hidden="false" name="QuickMacro 1">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{4C703B87-4ECD-4163-97CB-EB5F69CDF5C7}" hidden="false" name="QuickMacro 10">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{E0337115-AE4E-419F-A5BC-44EDD7E5591B}" hidden="false" name="QuickMacro 11">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{3A130290-7A17-4647-B178-0FC526594BA4}" hidden="false" name="QuickMacro 12">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{23181505-C45D-4B83-972D-725A38B5D02A}" hidden="false" name="QuickMacro 13">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{B079905A-7FAB-43C3-A4F3-1E01DBD28B23}" hidden="false" name="QuickMacro 14">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{BEF014A7-9898-4421-809B-8C6275B17F86}" hidden="false" name="QuickMacro 15">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{20AAADE4-DFD9-4EB4-BB93-F579B2EE1FE7}" hidden="false" name="QuickMacro 16">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="ESCAPE"/>
+          <key direction="up" value="ESCAPE"/>
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{6AFB1213-4A77-4DA8-AFA2-1059A8DFDD0D}" hidden="false" name="QuickMacro 17">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{78A77BA0-77F9-4B98-8CA2-D805DC841029}" hidden="false" name="QuickMacro 18">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{DE389206-087B-4FE4-94A0-E5DB603BCE63}" hidden="false" name="QuickMacro 19">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{ED2B1EC9-EC97-423A-BD98-EE3514923208}" hidden="false" name="QuickMacro 2">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{C38C5B9E-6998-4BC9-A354-1DDEE96298D0}" hidden="false" name="QuickMacro 20">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{ABCB6633-21D2-4AFE-87F4-89A05F2833BF}" hidden="false" name="QuickMacro 21">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{B9B1C263-16AC-4952-9F70-50084287A852}" hidden="false" name="QuickMacro 22">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{A6EFA5AB-39EA-4714-9914-F852BB043533}" hidden="false" name="QuickMacro 23">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{6481200A-F496-45C1-BC43-3B8351A8CDB8}" hidden="false" name="QuickMacro 24">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="ESCAPE"/>
+          <key direction="up" value="ESCAPE"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{7BA1462A-0B5F-4B79-A7DC-2102E75C2A1F}" hidden="false" name="QuickMacro 25">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{42EC4ABF-6EB2-42A3-A788-D9FF0B4A3A4D}" hidden="false" name="QuickMacro 26">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{05686BDD-5AC6-4BB5-A86A-43AB544B96B0}" hidden="false" name="QuickMacro 27">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{4FF5E6D8-671D-4CB4-B6F7-5E5A3C80AF9B}" hidden="false" name="QuickMacro 28">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{B7D8096B-38C4-44C5-B232-F102ECEF3F2D}" hidden="false" name="QuickMacro 29">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="NUMMINUS"/>
+          <key direction="up" value="NUMMINUS"/>
+          <key direction="down" value="NUMENTER"/>
+          <key direction="up" value="NUMENTER"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{6EA4D55D-C3EF-4619-8BB1-FC563133268A}" hidden="false" name="QuickMacro 3">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{14DC565A-A05D-4D68-869A-62BE81009029}" hidden="false" name="QuickMacro 30">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="down" value="F1"/>
+          <key direction="up" value="F2"/>
+          <key direction="up" value="F1"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{0A5E3FA1-3BE9-440E-AC92-7E48686799FF}" hidden="false" name="QuickMacro 31">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{ABD94991-9B14-4C28-BB30-B91CEBD2E17C}" hidden="false" name="QuickMacro 32">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="NUMMINUS"/>
+          <key direction="up" value="NUMMINUS"/>
+          <key direction="down" value="NUMENTER"/>
+          <key direction="up" value="NUMENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{279FAA28-2970-4C49-B2B9-7C9203FF64BF}" hidden="false" name="QuickMacro 33">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{C2775A5D-A9A4-44AB-A43E-4ADD081C4914}" hidden="false" name="QuickMacro 34">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="C"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="C"/>
+          <key direction="down" value="ESCAPE"/>
+          <key direction="up" value="ESCAPE"/>
+          <key direction="down" value="UP"/>
+          <key direction="up" value="UP"/>
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{F3C61389-9489-42B4-8383-2DAC22E38D4B}" hidden="false" name="QuickMacro 35">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="T"/>
+          <key direction="up" value="T"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="T"/>
+          <key direction="up" value="T"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{618F5B6D-EBDB-40C2-8FD4-5047D9BA492B}" hidden="false" name="QuickMacro 36">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="T"/>
+          <key direction="up" value="T"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="T"/>
+          <key direction="up" value="T"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{2C886C0E-DF36-4680-B8DB-A6EC1BEE6141}" hidden="false" name="QuickMacro 37">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="C"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="C"/>
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="C"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="C"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{495C69D0-BF9E-4BFD-BC8B-2EC2F6086DC2}" hidden="false" name="QuickMacro 38">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{0568FE99-67CC-456A-A043-7B7A087AAC1C}" hidden="false" name="QuickMacro 39">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="NUMMINUS"/>
+          <key direction="up" value="NUMMINUS"/>
+          <key direction="down" value="NUMENTER"/>
+          <key direction="up" value="NUMENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{F2455A5B-DA34-4453-BEF5-525A78AC8C38}" hidden="false" name="QuickMacro 4">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="SCROLLLOCK"/>
+          <key direction="up" value="SCROLLLOCK"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{66FED538-61F4-43C9-9A0D-A0DFB81FFE45}" hidden="false" name="QuickMacro 40">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{A04E1124-6384-4EF4-AFFA-DD258B059FE5}" hidden="false" name="QuickMacro 41">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{098BB350-0AD9-4F9F-9BEA-C8F277D75953}" hidden="false" name="QuickMacro 42">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{5ED7098A-3294-4CC4-AE29-872E27445735}" hidden="false" name="QuickMacro 43">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="INSERT"/>
+          <key direction="up" value="INSERT"/>
+          <key direction="down" value="INSERT"/>
+          <key direction="up" value="INSERT"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{54D7BEE3-522D-41B1-B9C5-48731674C25C}" hidden="false" name="QuickMacro 44">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="NUMMINUS"/>
+          <key direction="up" value="NUMMINUS"/>
+          <key direction="down" value="NUMENTER"/>
+          <key direction="up" value="NUMENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{34553E96-D3C1-4E64-9789-65B4519E9653}" hidden="false" name="QuickMacro 45">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{AA10B805-0616-4890-89F0-376C46021023}" hidden="false" name="QuickMacro 46">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{7B32928F-F29B-41FA-AB24-DB1C11EFEA61}" hidden="false" name="QuickMacro 47">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{DD30AFFA-4B10-449F-AA10-A1B2B718B4A1}" hidden="false" name="QuickMacro 48">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="ESCAPE"/>
+          <key direction="up" value="ESCAPE"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{5CD5B2C9-0BDA-44EA-8B32-00730252E2CD}" hidden="false" name="QuickMacro 49">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{A26BE26F-A92E-4F17-B622-705EE0EC982E}" hidden="false" name="QuickMacro 5">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{FB3C3DA7-E978-412D-BBA7-DB86B6009DFD}" hidden="false" name="QuickMacro 50">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="Z"/>
+          <key direction="up" value="Z"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{33C70882-47BB-4B6A-AA8D-36C9373E13F8}" hidden="false" name="QuickMacro 51">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{D8751B82-B1AF-42CD-9593-A85B0E29DDA3}" hidden="false" name="QuickMacro 52">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{EAB12A4F-AEC5-44EE-AE58-1FC418C39634}" hidden="false" name="QuickMacro 53">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{6F774D52-8B57-49A7-8AC6-CB4172FE8222}" hidden="false" name="QuickMacro 54">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{17B61185-6F15-4B39-AF32-ED24A40416E6}" hidden="false" name="QuickMacro 55">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="NUMMINUS"/>
+          <key direction="up" value="NUMMINUS"/>
+          <key direction="down" value="NUMENTER"/>
+          <key direction="up" value="NUMENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{EB5DB64C-4A5D-4D38-B949-7EDAC124A5F1}" hidden="false" name="QuickMacro 56">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{B8D2064A-8FFE-47FB-983C-FA8F2432D851}" hidden="false" name="QuickMacro 57">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{354DB56A-39AF-4448-B601-272139A5006D}" hidden="false" name="QuickMacro 58">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F3"/>
+          <key direction="up" value="F3"/>
+          <key direction="down" value="ESCAPE"/>
+          <key direction="up" value="ESCAPE"/>
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{5B556463-16E8-4F9D-88A5-D1223E35BDDF}" hidden="false" name="QuickMacro 59">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{B1C76FBA-D539-40A9-A58B-3BABFF3F8492}" hidden="false" name="QuickMacro 6">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{C392E3B2-11C3-4B79-9060-5C69B88F2C29}" hidden="false" name="QuickMacro 60">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{33BE55C4-847D-458C-964D-5672A6C4EAA9}" hidden="false" name="QuickMacro 61">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="H"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="up" value="H"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{F1077665-4822-4A5E-883A-FB10982CE564}" hidden="false" name="QuickMacro 62">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="G"/>
+          <key direction="down" value="H"/>
+          <key direction="up" value="G"/>
+          <key direction="up" value="H"/>
+          <key direction="up" value="LSHIFT"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{EDA9D7BC-90FA-48A7-B492-E5832DA0C266}" hidden="false" name="QuickMacro 63">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="H"/>
+          <key direction="up" value="H"/>
+          <key direction="up" value="LSHIFT"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{947EC8A9-D897-4B29-AFEC-A7DE2F5D61C0}" hidden="false" name="QuickMacro 64">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{5C093FC4-25D9-4636-80E1-274C7D866C17}" hidden="false" name="QuickMacro 65">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="NUMMINUS"/>
+          <key direction="up" value="NUMMINUS"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="NUMENTER"/>
+          <key direction="up" value="NUMENTER"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{0BE07A0F-7DD3-4DDD-9DD9-AE4D011787D8}" hidden="false" name="QuickMacro 66">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="PAGEUP"/>
+          <key direction="up" value="PAGEUP"/>
+          <key direction="down" value="PAGEUP"/>
+          <key direction="up" value="PAGEUP"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="NUMMINUS"/>
+          <key direction="up" value="NUMMINUS"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{687A25CF-87D2-4721-A3E5-BE80047260C5}" hidden="false" name="QuickMacro 67">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{A404743D-A15F-4174-BCE4-A1C4D2263AE0}" hidden="false" name="QuickMacro 68">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="NUMMINUS"/>
+          <key direction="up" value="NUMMINUS"/>
+          <key direction="down" value="NUMENTER"/>
+          <key direction="up" value="NUMENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{1897BC32-3FB9-4E1F-A083-315BDDA52F53}" hidden="false" name="QuickMacro 7">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="NUMENTER"/>
+          <key direction="up" value="NUMENTER"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{C031E050-307A-4AFF-9D5D-39991D609D38}" hidden="false" name="QuickMacro 8">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{0EC8DA21-1348-420E-81F4-8D6CCD39B7EF}" hidden="false" name="QuickMacro 9">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0005-4381-0002-4F0F5A9E9803}" hidden="false" name="R">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="R"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-001B-4381-0002-4F0F5A9E9803}" hidden="false" name="S">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="S"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-000E-4381-0002-4F0F5A9E9803}" hidden="false" name="Shift">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LSHIFT"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0015-4381-0002-4F0F5A9E9803}" hidden="false" name="Space">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="SPACEBAR"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0002-4381-0001-4F0F5A9E9803}" hidden="false" name="Starter">
+        <shortcut xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Shortcut">
+          <start workingdir="C:\Utilities\Starter\" url="C:\Utilities\Starter\Starter.exe"/>
+        </shortcut>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0006-4381-0002-4F0F5A9E9803}" hidden="false" name="T">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="T"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0005-4381-0001-4F0F5A9E9803}" hidden="false" name="Uninstall Tool">
+        <shortcut xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Shortcut">
+          <start workingdir="&quot;C:\Utilities\Uninstall Tool\&quot;" url="&quot;C:\Utilities\Uninstall Tool\utool.exe&quot;"/>
+        </shortcut>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0012-4381-0002-4F0F5A9E9803}" hidden="false" name="V">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="V"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0003-4381-0002-4F0F5A9E9803}" hidden="false" name="W">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="W"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-0010-4381-0002-4F0F5A9E9803}" hidden="false" name="X">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="X"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{DCF50AE2-000F-4381-0002-4F0F5A9E9803}" hidden="false" name="Z">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="Z"/>
+        </keystroke>
+      </macro>
+      <macro original="true" guid="{E33232CB-9361-4155-B4F2-94758BEA25DF}" hidden="false" name="QuickMacro 69">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{FF251DAD-FDD3-4280-9B82-7305BA83E7AA}" hidden="false" name="QuickMacro 70">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{B1F8EE70-565F-4FC0-85AE-8DA133548CD3}" hidden="false" name="QuickMacro 71">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{FD6AC42F-4B5C-49B4-A85F-7FB0CD3EEEF7}" hidden="false" name="QuickMacro 72">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{FEC64788-BBF9-498C-B912-F8719627CB8F}" hidden="false" name="QuickMacro 73">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{2A78FD3C-08BD-410C-8C0F-629C6288ACD1}" hidden="false" name="QuickMacro 74">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro original="true" guid="{2D2E3C8A-6BF6-41F5-AF8F-B52ABFA33A9B}" hidden="false" name="QuickMacro 75">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro guid="{6B5CBBF4-C135-463A-B081-D4ABC4E61661}" hidden="true" name="Left Click">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="leftclick"/>
+        </mousefunction>
+      </macro>
+      <macro guid="{BB6745EC-DA23-4FFA-83E8-CB687FC9A83D}" hidden="false" name="Left Click">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="leftclick"/>
+        </mousefunction>
+      </macro>
+      <macro guid="{6CE451AA-3A0E-4930-882A-2AB52EB163B6}" hidden="true" name="Right Click">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="rightclick"/>
+        </mousefunction>
+      </macro>
+      <macro guid="{1DCDC26B-6FF1-4E11-8687-11A8BF905A8E}" hidden="false" name="Right Click">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="rightclick"/>
+        </mousefunction>
+      </macro>
+      <macro guid="{36377E33-D883-4A69-AE21-E062787872CA}" hidden="true" name="Middle Click">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="middleclick"/>
+        </mousefunction>
+      </macro>
+      <macro guid="{9C1C83BD-05E4-489E-8681-0FF34B62FAF0}" hidden="false" name="Middle Click">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="middleclick"/>
+        </mousefunction>
+      </macro>
+      <macro guid="{8531DDEC-1289-4BCD-9143-9AE701F80545}" hidden="true" name="Back">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="back"/>
+        </mousefunction>
+      </macro>
+      <macro guid="{1AD982B1-536A-4656-9001-5488751B9374}" hidden="false" name="Back">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="back"/>
+        </mousefunction>
+      </macro>
+      <macro guid="{B42540AA-BDF2-4DAD-B53B-2CB6F558510F}" hidden="true" name="Forward">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="forward"/>
+        </mousefunction>
+      </macro>
+      <macro guid="{DBA0133A-0920-49E7-841D-FFC4764E39F2}" hidden="false" name="Forward">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="forward"/>
+        </mousefunction>
+      </macro>
+      <macro devicecategory="Logitech.Gaming.Mouse" guid="{12F01C96-A215-445F-8C1B-143C61196434}" hidden="true" name="Default DPI">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="defaultdpi"/>
+        </mousefunction>
+      </macro>
+      <macro devicecategory="Logitech.Gaming.Mouse" guid="{DB790242-667B-48D6-A90A-9124FC2B8932}" hidden="true" name="DPI Up">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpiup"/>
+        </mousefunction>
+      </macro>
+      <macro devicecategory="Logitech.Gaming.Mouse" guid="{B9369B67-0B30-4E22-8FA8-AF5CDE37F7CE}" hidden="true" name="DPI Down">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpidown"/>
+        </mousefunction>
+      </macro>
+      <macro guid="{2CEA6D85-D47C-4DF9-90FC-CECC5B921CFC}" hidden="false" name="Refresh">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="F5"/>
+        </keystroke>
+      </macro>
+      <macro guid="{746ED161-CC8C-4D23-B367-F22E0EFC8FE3}" hidden="false" name="Mute">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="LALT"/>
+          <key direction="down" value="M"/>
+          <key direction="up" value="M"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="LALT"/>
+        </multikey>
+      </macro>
+      <macro guid="{9CED4161-E928-4879-8287-1798509CECD7}" hidden="false" name="AIMP">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="LALT"/>
+          <key direction="down" value="P"/>
+          <key direction="up" value="P"/>
+          <key direction="up" value="LALT"/>
+          <key direction="up" value="LCTRL"/>
+        </multikey>
+      </macro>
+      <macro guid="{99935140-00CB-464D-BF3D-E758CF8F0BED}" hidden="false" name="QuickMacro 76">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="INSERT"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="INSERT"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro guid="{0CD87C50-92D8-4A4A-86CC-66FC428F4A8B}" hidden="false" name="QuickMacro 77">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="NUMMINUS"/>
+          <key direction="up" value="NUMMINUS"/>
+          <key direction="down" value="NUMENTER"/>
+          <key direction="up" value="NUMENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro guid="{BC62CBF0-E456-47F8-A9F4-C9D8EF8AF6B7}" hidden="false" name="QuickMacro 78">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F1"/>
+          <key direction="up" value="F1"/>
+        </multikey>
+      </macro>
+      <macro guid="{E14E0AF6-9424-4B86-8B17-2490E1B54CF1}" hidden="false" name="QuickMacro 79">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="NUMMINUS"/>
+          <key direction="up" value="NUMMINUS"/>
+          <key direction="down" value="NUMENTER"/>
+          <key direction="up" value="NUMENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro guid="{6171382F-FB71-4B65-AD06-1EC5F4169D7E}" hidden="false" name="QuickMacro 80">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro guid="{F777BB7B-3E18-4596-BE6B-10493C152F16}" hidden="false" name="QuickMacro 81">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro guid="{25BB3458-6202-4B4B-A76B-D3A0F7B36406}" hidden="false" name="QuickMacro 82">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="NUM5"/>
+          <key direction="up" value="NUM5"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro guid="{B5C37AC4-803A-4F1C-9832-10F27684439E}" hidden="false" name="QuickMacro 83">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="END"/>
+          <key direction="up" value="END"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="down" value="LEFT"/>
+          <key direction="up" value="LEFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="X"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="V"/>
+          <key direction="up" value="LCTRL"/>
+          <key direction="up" value="V"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro guid="{8BC4A6CB-FA46-42FC-B938-EB2EF4D86733}" hidden="false" name="QuickMacro 84">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F1"/>
+          <key direction="up" value="F1"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+        </multikey>
+      </macro>
+      <macro guid="{4A1DB7EC-841E-4842-B4BD-98254F22809F}" hidden="false" name="QuickMacro 85">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="BACKSPACE"/>
+          <key direction="up" value="BACKSPACE"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="DELETE"/>
+          <key direction="up" value="DELETE"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="MINUS"/>
+          <key direction="up" value="MINUS"/>
+          <key direction="down" value="ENTER"/>
+          <key direction="up" value="ENTER"/>
+          <key direction="down" value="DOWN"/>
+          <key direction="up" value="DOWN"/>
+        </multikey>
+      </macro>
+      <macro guid="{EDBB45CF-BA90-43BE-8D10-51CF641A7DFB}" hidden="false" name="Starter">
+        <shortcut xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Shortcut">
+          <start workingdir="" url="C:/Utilities/Starter/Starter.exe"/>
+        </shortcut>
+      </macro>
+      <macro backupguid="{DCF50AE2-0001-4381-0001-4F0F5A9E9803}" guid="{10C68156-C29D-4F4D-9A15-2A481ACC384A}" hidden="false" name="TrueCrypt">
+        <shortcut xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Shortcut">
+          <start workingdir="C:\Utilities\TrueCrypt\" url="C:\Utilities\TrueCrypt\TrueCrypt.exe"/>
+        </shortcut>
+      </macro>
+      <macro guid="{DCF50AE2-0001-4381-0001-4F0F5A9E9803}" hidden="false" name="ProcessHacker">
+        <shortcut xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Shortcut">
+          <start workingdir="" url="C:/Utilities/Process Hacker/ProcessHacker.exe"/>
+        </shortcut>
+      </macro>
+      <macro guid="{173B56A3-C6C2-442D-8C33-FA29B51C4204}" hidden="false" name="QuickMacro 86">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F2"/>
+          <key direction="up" value="F2"/>
+          <key direction="down" value="HOME"/>
+          <key direction="up" value="HOME"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="RIGHT"/>
+          <key direction="up" value="RIGHT"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="up" value="SPACEBAR"/>
+          <key direction="down" value="NUMMINUS"/>
+          <key direction="up" value="NUMMINUS"/>
+          <key direction="down" value="NUMENTER"/>
+          <key direction="up" value="NUMENTER"/>
+        </multikey>
+      </macro>
+    </macros>
+    <assignments devicecategory="Logitech.Gaming.Keyboard">
+      <assignment original="true" backup="false" contextid="G18" shiftstate="1" macroguid="{DCF50AE2-0011-4381-0001-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G14" shiftstate="1" macroguid="{DCF50AE2-000D-4381-0001-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G17" shiftstate="1" macroguid="{DCF50AE2-0010-4381-0001-4F0F5A9E9803}"/>
+      <assignment original="false" backup="false" contextid="G2" shiftstate="1" macroguid="{DCF50AE2-0001-4381-0001-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G6" shiftstate="1" macroguid="{DCF50AE2-0005-4381-0001-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G5" shiftstate="1" macroguid="{DCF50AE2-0004-4381-0001-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G4" shiftstate="1" macroguid="{DCF50AE2-0003-4381-0001-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G8" shiftstate="1" macroguid="{DCF50AE2-0007-4381-0001-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G13" shiftstate="1" macroguid="{70908FFC-32CC-4129-863C-1D5D75831DB8}"/>
+      <assignment original="true" backup="false" contextid="G16" shiftstate="1" macroguid="{DCF50AE2-000F-4381-0001-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G18" shiftstate="3" macroguid="{DCF50AE2-0011-4381-0201-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G2" shiftstate="2" macroguid="{EB5DB64C-4A5D-4D38-B949-7EDAC124A5F1}"/>
+      <assignment original="true" backup="false" contextid="G7" shiftstate="2" macroguid="{618F5B6D-EBDB-40C2-8FD4-5047D9BA492B}"/>
+      <assignment original="true" backup="false" contextid="G9" shiftstate="2" macroguid="{EDA9D7BC-90FA-48A7-B492-E5832DA0C266}"/>
+      <assignment original="false" backup="true" contextid="G1" shiftstate="1" macroguid="{DCF50AE2-0000-4381-0001-4F0F5A9E9803}"/>
+      <assignment original="false" backup="false" contextid="G1" shiftstate="1" macroguid="{DCF50AE2-0006-4381-0001-4F0F5A9E9803}"/>
+      <assignment original="false" backup="true" contextid="G1" shiftstate="2" macroguid="{2D2E3C8A-6BF6-41F5-AF8F-B52ABFA33A9B}"/>
+      <assignment original="false" backup="false" contextid="G1" shiftstate="2" macroguid="{4A1DB7EC-841E-4842-B4BD-98254F22809F}"/>
+      <assignment original="false" backup="true" contextid="G3" shiftstate="1" macroguid="{DCF50AE2-0002-4381-0001-4F0F5A9E9803}"/>
+      <assignment original="false" backup="false" contextid="G3" shiftstate="1" macroguid="{EDBB45CF-BA90-43BE-8D10-51CF641A7DFB}"/>
+      <assignment original="false" backup="true" contextid="G2" shiftstate="1" macroguid="{DCF50AE2-0001-4381-0001-4F0F5A9E9803}"/>
+      <assignment original="false" backup="true" contextid="G3" shiftstate="2" macroguid="{C392E3B2-11C3-4B79-9060-5C69B88F2C29}"/>
+      <assignment original="false" backup="false" contextid="G3" shiftstate="2" macroguid="{173B56A3-C6C2-442D-8C33-FA29B51C4204}"/>
+    </assignments>
+    <assignments devicecategory="Logitech.Gaming.LeftHandedController">
+      <assignment original="true" backup="false" contextid="G1" shiftstate="1" macroguid="{DCF50AE2-0000-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G2" shiftstate="1" macroguid="{DCF50AE2-0001-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G3" shiftstate="1" macroguid="{DCF50AE2-0002-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G4" shiftstate="1" macroguid="{DCF50AE2-0003-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G5" shiftstate="1" macroguid="{DCF50AE2-0004-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G6" shiftstate="1" macroguid="{DCF50AE2-0005-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G7" shiftstate="1" macroguid="{DCF50AE2-0006-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G8" shiftstate="1" macroguid="{DCF50AE2-0007-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G9" shiftstate="1" macroguid="{DCF50AE2-0008-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G10" shiftstate="1" macroguid="{DCF50AE2-001C-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G11" shiftstate="1" macroguid="{DCF50AE2-001B-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G12" shiftstate="1" macroguid="{DCF50AE2-000B-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G13" shiftstate="1" macroguid="{DCF50AE2-000C-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G14" shiftstate="1" macroguid="{DCF50AE2-000D-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G15" shiftstate="1" macroguid="{DCF50AE2-000E-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G16" shiftstate="1" macroguid="{DCF50AE2-000F-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G17" shiftstate="1" macroguid="{DCF50AE2-0010-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G18" shiftstate="1" macroguid="{DCF50AE2-0011-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G19" shiftstate="1" macroguid="{DCF50AE2-0012-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G20" shiftstate="1" macroguid="{DCF50AE2-0013-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G21" shiftstate="1" macroguid="{DCF50AE2-0014-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G22" shiftstate="1" macroguid="{DCF50AE2-0015-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G23" shiftstate="1" macroguid="{DCF50AE2-0016-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G24" shiftstate="1" macroguid="{DCF50AE2-0017-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G25" shiftstate="1" macroguid="{DCF50AE2-0018-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G26" shiftstate="1" macroguid="{DCF50AE2-0003-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G27" shiftstate="1" macroguid="{DCF50AE2-000B-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G28" shiftstate="1" macroguid="{DCF50AE2-001B-4381-0002-4F0F5A9E9803}"/>
+      <assignment original="true" backup="false" contextid="G29" shiftstate="1" macroguid="{DCF50AE2-001C-4381-0002-4F0F5A9E9803}"/>
+    </assignments>
+    <assignments devicecategory="Logitech.Gaming.Mouse">
+      <assignment original="false" backup="false" contextid="Button1" shiftstate="1" macroguid="{BB6745EC-DA23-4FFA-83E8-CB687FC9A83D}"/>
+      <assignment original="false" backup="false" contextid="Button2" shiftstate="1" macroguid="{1DCDC26B-6FF1-4E11-8687-11A8BF905A8E}"/>
+      <assignment original="false" backup="false" contextid="Button3" shiftstate="1" macroguid="{9C1C83BD-05E4-489E-8681-0FF34B62FAF0}"/>
+      <assignment original="false" backup="false" contextid="Button4" shiftstate="1" macroguid="{1AD982B1-536A-4656-9001-5488751B9374}"/>
+      <assignment original="false" backup="false" contextid="Button5" shiftstate="1" macroguid="{DBA0133A-0920-49E7-841D-FFC4764E39F2}"/>
+      <assignment original="false" backup="false" contextid="Button6" shiftstate="1" macroguid="{746ED161-CC8C-4D23-B367-F22E0EFC8FE3}"/>
+      <assignment original="false" backup="false" contextid="Button7" shiftstate="1" macroguid="{9CED4161-E928-4879-8287-1798509CECD7}"/>
+      <assignment original="false" backup="false" contextid="Button8" shiftstate="1" macroguid="{2CEA6D85-D47C-4DF9-90FC-CECC5B921CFC}"/>
+    </assignments>
+    <backlight devicemodel="Logitech.Gaming.Mouse.G400">
+      <mode shiftstate="1" color="#000000"/>
+      <mode shiftstate="2" color="#000000"/>
+      <mode shiftstate="3" color="#000000"/>
+    </backlight>
+    <backlight devicemodel="Logitech.Gaming.Keyboard.G11">
+      <mode shiftstate="1" color="#000000"/>
+      <mode shiftstate="2" color="#000000"/>
+      <mode shiftstate="3" color="#000000"/>
+    </backlight>
+    <script>function OnEvent(event, arg)
+    PressKey("/");
+    ReleaseKey("/");
+	--OutputLogMessage("event = %s, arg = %s\n", event, arg);
+end</script>
+  </profile>
+</profiles>

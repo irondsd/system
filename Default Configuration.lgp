@@ -1,0 +1,2786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profiles>
+	<profile guid="{AFB6631B-68B5-4812-A564-4664AF01E1F2}" name="Default Configuration" revision="3.06" lock="0">
+		<description>
+			
+		</description>
+		<macros>
+			<macro name="1" guid="{DCF50AE2-0000-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="1"/>
+			</macro>
+			<macro name="2" guid="{DCF50AE2-0001-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="2"/>
+			</macro>
+			<macro name="3" guid="{DCF50AE2-0007-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="3"/>
+			</macro>
+			<macro name="4" guid="{DCF50AE2-0008-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="4"/>
+			</macro>
+			<macro name="6" guid="{DCF50AE2-0016-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="6"/>
+			</macro>
+			<macro name="7" guid="{DCF50AE2-0017-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="7"/>
+			</macro>
+			<macro name="8" guid="{DCF50AE2-0018-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="8"/>
+			</macro>
+			<macro name="A" guid="{DCF50AE2-001C-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="A"/>
+			</macro>
+			<macro name="A" guid="{DCF50AE2-0009-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="A"/>
+			</macro>
+			<macro name="AIMP" guid="{DCF50AE2-0006-4381-0001-4F0F5A9E9803}" type="shell">
+				<event type="shell" shellcmd="C:\Utilities\AIMP\AIMP2.exe" shelldir="C:\Utilities\AIMP\"/>
+			</macro>
+			<macro name="Alt" guid="{DCF50AE2-0014-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="LALT"/>
+			</macro>
+			<macro name="Autoruns" guid="{DCF50AE2-0003-4381-0001-4F0F5A9E9803}" type="shell">
+				<event type="shell" shellcmd="C:\Utilities\Starter\autoruns.exe" shelldir="C:\Utilities\Starter\"/>
+			</macro>
+			<macro name="C" guid="{DCF50AE2-0011-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="C"/>
+			</macro>
+			<macro name="Calculator" guid="{DCF50AE2-0007-4381-0001-4F0F5A9E9803}" type="shell">
+				<event type="shell" shellcmd="&quot;H:\Files\My Projects\Calculator\Calculator.exe&quot;" shelldir="&quot;H:\Files\My Projects\Calculator\&quot;"/>
+			</macro>
+			<macro name="Ctrl" guid="{DCF50AE2-0013-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="LCTRL"/>
+			</macro>
+			<macro name="Ctrl + Alt + M" guid="{DCF50AE2-0010-4381-0001-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="M"/>
+				<event type="modifier" keyname="LCTRL"/>
+				<event type="modifier" keyname="LALT"/>
+			</macro>
+			<macro name="Ctrl + Shift + Alt" guid="{DCF50AE2-0000-4381-0101-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="LALT"/>
+				<event type="modifier" keyname="LCTRL"/>
+				<event type="modifier" keyname="LSHIFT"/>
+			</macro>
+			<macro name="Ctrl + Shift + Alt + O" guid="{DCF50AE2-000F-4381-0001-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="O"/>
+				<event type="modifier" keyname="LCTRL"/>
+				<event type="modifier" keyname="LSHIFT"/>
+				<event type="modifier" keyname="LALT"/>
+			</macro>
+			<macro name="Ctrl + Shift + Alt + T" guid="{DCF50AE2-000D-4381-0001-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="T"/>
+				<event type="modifier" keyname="LCTRL"/>
+				<event type="modifier" keyname="LSHIFT"/>
+				<event type="modifier" keyname="LALT"/>
+			</macro>
+			<macro name="D" guid="{DCF50AE2-000B-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="D"/>
+			</macro>
+			<macro name="D" guid="{DCF50AE2-001A-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="D"/>
+			</macro>
+			<macro name="E" guid="{DCF50AE2-0004-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="E"/>
+			</macro>
+			<macro name="F" guid="{DCF50AE2-000C-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="F"/>
+			</macro>
+			<macro name="G" guid="{DCF50AE2-000D-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="G"/>
+			</macro>
+			<macro name="Lyrics" guid="{70908FFC-32CC-4129-863C-1D5D75831DB8}" type="multikey">
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LALT"/>
+				<event type="keydown" keyname="O"/>
+				<event type="keyup" keyname="O"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keyup" keyname="LALT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="T"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="T"/>
+				<event type="keydown" keyname="L"/>
+				<event type="keyup" keyname="L"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+			</macro>
+			<macro name="Num /" guid="{DCF50AE2-0011-4381-0001-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="NUMSLASH"/>
+			</macro>
+			<macro name="Num Lock" guid="{DCF50AE2-0011-4381-0201-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="NUMLOCK"/>
+			</macro>
+			<macro name="Photo Resizer" guid="{DCF50AE2-0004-4381-0001-4F0F5A9E9803}" type="shell">
+				<event type="shell" shellcmd="&quot;C:\Utilities\FastStone Photo Resizer\FSResizer.exe&quot;" shelldir="&quot;C:\Utilities\FastStone Photo Resizer\&quot;"/>
+			</macro>
+			<macro name="Q" guid="{DCF50AE2-0002-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="Q"/>
+			</macro>
+			<macro name="QuickMacro" guid="{EE0FD4DF-6B8F-4B33-BD4E-3F9B96F16EDA}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="2"/>
+				<event type="keyup" keyname="2"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 1" guid="{AB4F7E22-8807-434F-8E4E-EAA267C9B5E5}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 10" guid="{4C703B87-4ECD-4163-97CB-EB5F69CDF5C7}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 11" guid="{E0337115-AE4E-419F-A5BC-44EDD7E5591B}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+			</macro>
+			<macro name="QuickMacro 12" guid="{3A130290-7A17-4647-B178-0FC526594BA4}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 13" guid="{23181505-C45D-4B83-972D-725A38B5D02A}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 14" guid="{B079905A-7FAB-43C3-A4F3-1E01DBD28B23}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 15" guid="{BEF014A7-9898-4421-809B-8C6275B17F86}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+			</macro>
+			<macro name="QuickMacro 16" guid="{20AAADE4-DFD9-4EB4-BB93-F579B2EE1FE7}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="ESCAPE"/>
+				<event type="keyup" keyname="ESCAPE"/>
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+			</macro>
+			<macro name="QuickMacro 17" guid="{6AFB1213-4A77-4DA8-AFA2-1059A8DFDD0D}" type="multikey">
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+			</macro>
+			<macro name="QuickMacro 18" guid="{78A77BA0-77F9-4B98-8CA2-D805DC841029}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+			</macro>
+			<macro name="QuickMacro 19" guid="{DE389206-087B-4FE4-94A0-E5DB603BCE63}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+			</macro>
+			<macro name="QuickMacro 2" guid="{ED2B1EC9-EC97-423A-BD98-EE3514923208}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+			</macro>
+			<macro name="QuickMacro 20" guid="{C38C5B9E-6998-4BC9-A354-1DDEE96298D0}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 21" guid="{ABCB6633-21D2-4AFE-87F4-89A05F2833BF}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 22" guid="{B9B1C263-16AC-4952-9F70-50084287A852}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 23" guid="{A6EFA5AB-39EA-4714-9914-F852BB043533}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 24" guid="{6481200A-F496-45C1-BC43-3B8351A8CDB8}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="ESCAPE"/>
+				<event type="keyup" keyname="ESCAPE"/>
+			</macro>
+			<macro name="QuickMacro 25" guid="{7BA1462A-0B5F-4B79-A7DC-2102E75C2A1F}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 26" guid="{42EC4ABF-6EB2-42A3-A788-D9FF0B4A3A4D}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 27" guid="{05686BDD-5AC6-4BB5-A86A-43AB544B96B0}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 28" guid="{4FF5E6D8-671D-4CB4-B6F7-5E5A3C80AF9B}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 29" guid="{B7D8096B-38C4-44C5-B232-F102ECEF3F2D}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="NUMMINUS"/>
+				<event type="keyup" keyname="NUMMINUS"/>
+				<event type="keydown" keyname="NUMENTER"/>
+				<event type="keyup" keyname="NUMENTER"/>
+			</macro>
+			<macro name="QuickMacro 3" guid="{6EA4D55D-C3EF-4619-8BB1-FC563133268A}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+			</macro>
+			<macro name="QuickMacro 30" guid="{14DC565A-A05D-4D68-869A-62BE81009029}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keydown" keyname="F1"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keyup" keyname="F1"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 31" guid="{0A5E3FA1-3BE9-440E-AC92-7E48686799FF}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+			</macro>
+			<macro name="QuickMacro 32" guid="{ABD94991-9B14-4C28-BB30-B91CEBD2E17C}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="NUMMINUS"/>
+				<event type="keyup" keyname="NUMMINUS"/>
+				<event type="keydown" keyname="NUMENTER"/>
+				<event type="keyup" keyname="NUMENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 33" guid="{279FAA28-2970-4C49-B2B9-7C9203FF64BF}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+			</macro>
+			<macro name="QuickMacro 34" guid="{C2775A5D-A9A4-44AB-A43E-4ADD081C4914}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="C"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="C"/>
+				<event type="keydown" keyname="ESCAPE"/>
+				<event type="keyup" keyname="ESCAPE"/>
+				<event type="keydown" keyname="UP"/>
+				<event type="keyup" keyname="UP"/>
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 35" guid="{F3C61389-9489-42B4-8383-2DAC22E38D4B}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="T"/>
+				<event type="keyup" keyname="T"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="T"/>
+				<event type="keyup" keyname="T"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+			</macro>
+			<macro name="QuickMacro 36" guid="{618F5B6D-EBDB-40C2-8FD4-5047D9BA492B}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="T"/>
+				<event type="keyup" keyname="T"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="T"/>
+				<event type="keyup" keyname="T"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+			</macro>
+			<macro name="QuickMacro 37" guid="{2C886C0E-DF36-4680-B8DB-A6EC1BEE6141}" type="multikey">
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="C"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="C"/>
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="C"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="C"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 38" guid="{495C69D0-BF9E-4BFD-BC8B-2EC2F6086DC2}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+			</macro>
+			<macro name="QuickMacro 39" guid="{0568FE99-67CC-456A-A043-7B7A087AAC1C}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="NUMMINUS"/>
+				<event type="keyup" keyname="NUMMINUS"/>
+				<event type="keydown" keyname="NUMENTER"/>
+				<event type="keyup" keyname="NUMENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 4" guid="{F2455A5B-DA34-4453-BEF5-525A78AC8C38}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="SCROLLLOCK"/>
+				<event type="keyup" keyname="SCROLLLOCK"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 40" guid="{66FED538-61F4-43C9-9A0D-A0DFB81FFE45}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+			</macro>
+			<macro name="QuickMacro 41" guid="{A04E1124-6384-4EF4-AFFA-DD258B059FE5}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 42" guid="{098BB350-0AD9-4F9F-9BEA-C8F277D75953}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+			</macro>
+			<macro name="QuickMacro 43" guid="{5ED7098A-3294-4CC4-AE29-872E27445735}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="INSERT"/>
+				<event type="keyup" keyname="INSERT"/>
+				<event type="keydown" keyname="INSERT"/>
+				<event type="keyup" keyname="INSERT"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+			</macro>
+			<macro name="QuickMacro 44" guid="{54D7BEE3-522D-41B1-B9C5-48731674C25C}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="NUMMINUS"/>
+				<event type="keyup" keyname="NUMMINUS"/>
+				<event type="keydown" keyname="NUMENTER"/>
+				<event type="keyup" keyname="NUMENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 45" guid="{34553E96-D3C1-4E64-9789-65B4519E9653}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+			</macro>
+			<macro name="QuickMacro 46" guid="{AA10B805-0616-4890-89F0-376C46021023}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+			</macro>
+			<macro name="QuickMacro 47" guid="{7B32928F-F29B-41FA-AB24-DB1C11EFEA61}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+			</macro>
+			<macro name="QuickMacro 48" guid="{DD30AFFA-4B10-449F-AA10-A1B2B718B4A1}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="ESCAPE"/>
+				<event type="keyup" keyname="ESCAPE"/>
+			</macro>
+			<macro name="QuickMacro 49" guid="{5CD5B2C9-0BDA-44EA-8B32-00730252E2CD}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+			</macro>
+			<macro name="QuickMacro 5" guid="{A26BE26F-A92E-4F17-B622-705EE0EC982E}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+			</macro>
+			<macro name="QuickMacro 50" guid="{FB3C3DA7-E978-412D-BBA7-DB86B6009DFD}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="Z"/>
+				<event type="keyup" keyname="Z"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+			</macro>
+			<macro name="QuickMacro 51" guid="{33C70882-47BB-4B6A-AA8D-36C9373E13F8}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+			</macro>
+			<macro name="QuickMacro 52" guid="{D8751B82-B1AF-42CD-9593-A85B0E29DDA3}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+			</macro>
+			<macro name="QuickMacro 53" guid="{EAB12A4F-AEC5-44EE-AE58-1FC418C39634}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+			</macro>
+			<macro name="QuickMacro 54" guid="{6F774D52-8B57-49A7-8AC6-CB4172FE8222}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 55" guid="{17B61185-6F15-4B39-AF32-ED24A40416E6}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="NUMMINUS"/>
+				<event type="keyup" keyname="NUMMINUS"/>
+				<event type="keydown" keyname="NUMENTER"/>
+				<event type="keyup" keyname="NUMENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 56" guid="{EB5DB64C-4A5D-4D38-B949-7EDAC124A5F1}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 57" guid="{B8D2064A-8FFE-47FB-983C-FA8F2432D851}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+			</macro>
+			<macro name="QuickMacro 58" guid="{354DB56A-39AF-4448-B601-272139A5006D}" type="multikey">
+				<event type="keydown" keyname="F3"/>
+				<event type="keyup" keyname="F3"/>
+				<event type="keydown" keyname="ESCAPE"/>
+				<event type="keyup" keyname="ESCAPE"/>
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+			</macro>
+			<macro name="QuickMacro 59" guid="{5B556463-16E8-4F9D-88A5-D1223E35BDDF}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 6" guid="{B1C76FBA-D539-40A9-A58B-3BABFF3F8492}" type="multikey">
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+			</macro>
+			<macro name="QuickMacro 60" guid="{C392E3B2-11C3-4B79-9060-5C69B88F2C29}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+			</macro>
+			<macro name="QuickMacro 61" guid="{33BE55C4-847D-458C-964D-5672A6C4EAA9}" type="multikey">
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="H"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keyup" keyname="H"/>
+			</macro>
+			<macro name="QuickMacro 62" guid="{F1077665-4822-4A5E-883A-FB10982CE564}" type="multikey">
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="G"/>
+				<event type="keydown" keyname="H"/>
+				<event type="keyup" keyname="G"/>
+				<event type="keyup" keyname="H"/>
+				<event type="keyup" keyname="LSHIFT"/>
+			</macro>
+			<macro name="QuickMacro 63" guid="{EDA9D7BC-90FA-48A7-B492-E5832DA0C266}" type="multikey">
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="H"/>
+				<event type="keyup" keyname="H"/>
+				<event type="keyup" keyname="LSHIFT"/>
+			</macro>
+			<macro name="QuickMacro 64" guid="{947EC8A9-D897-4B29-AFEC-A7DE2F5D61C0}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+			</macro>
+			<macro name="QuickMacro 65" guid="{5C093FC4-25D9-4636-80E1-274C7D866C17}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="NUMMINUS"/>
+				<event type="keyup" keyname="NUMMINUS"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="NUMENTER"/>
+				<event type="keyup" keyname="NUMENTER"/>
+			</macro>
+			<macro name="QuickMacro 66" guid="{0BE07A0F-7DD3-4DDD-9DD9-AE4D011787D8}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="PAGEUP"/>
+				<event type="keyup" keyname="PAGEUP"/>
+				<event type="keydown" keyname="PAGEUP"/>
+				<event type="keyup" keyname="PAGEUP"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="NUMMINUS"/>
+				<event type="keyup" keyname="NUMMINUS"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+			</macro>
+			<macro name="QuickMacro 67" guid="{687A25CF-87D2-4721-A3E5-BE80047260C5}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+			</macro>
+			<macro name="QuickMacro 68" guid="{A404743D-A15F-4174-BCE4-A1C4D2263AE0}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="NUMMINUS"/>
+				<event type="keyup" keyname="NUMMINUS"/>
+				<event type="keydown" keyname="NUMENTER"/>
+				<event type="keyup" keyname="NUMENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 7" guid="{1897BC32-3FB9-4E1F-A083-315BDDA52F53}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="NUMENTER"/>
+				<event type="keyup" keyname="NUMENTER"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+			</macro>
+			<macro name="QuickMacro 8" guid="{C031E050-307A-4AFF-9D5D-39991D609D38}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 9" guid="{0EC8DA21-1348-420E-81F4-8D6CCD39B7EF}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="R" guid="{DCF50AE2-0005-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="R"/>
+			</macro>
+			<macro name="S" guid="{DCF50AE2-001B-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="S"/>
+			</macro>
+			<macro name="S" guid="{DCF50AE2-000A-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="S"/>
+			</macro>
+			<macro name="Shift" guid="{DCF50AE2-000E-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="LSHIFT"/>
+			</macro>
+			<macro name="Space" guid="{DCF50AE2-0015-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="SPACEBAR"/>
+			</macro>
+			<macro name="Starter" guid="{DCF50AE2-0002-4381-0001-4F0F5A9E9803}" type="shell">
+				<event type="shell" shellcmd="C:\Utilities\Starter\Starter.exe" shelldir="C:\Utilities\Starter\"/>
+			</macro>
+			<macro name="T" guid="{DCF50AE2-0006-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="T"/>
+			</macro>
+			<macro name="TrueCrypt" guid="{DCF50AE2-0001-4381-0001-4F0F5A9E9803}" type="shell">
+				<event type="shell" shellcmd="C:\Utilities\TrueCrypt\TrueCrypt.exe" shelldir="C:\Utilities\TrueCrypt\"/>
+			</macro>
+			<macro name="Uninstall Tool" guid="{DCF50AE2-0005-4381-0001-4F0F5A9E9803}" type="shell">
+				<event type="shell" shellcmd="&quot;C:\Utilities\Uninstall Tool\utool.exe&quot;" shelldir="&quot;C:\Utilities\Uninstall Tool\&quot;"/>
+			</macro>
+			<macro name="V" guid="{DCF50AE2-0012-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="V"/>
+			</macro>
+			<macro name="W" guid="{DCF50AE2-0003-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="W"/>
+			</macro>
+			<macro name="W" guid="{DCF50AE2-0019-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="W"/>
+			</macro>
+			<macro name="X" guid="{DCF50AE2-0010-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="X"/>
+			</macro>
+			<macro name="Z" guid="{DCF50AE2-000F-4381-0002-4F0F5A9E9803}" type="singlekey">
+				<event type="key" keyname="Z"/>
+			</macro>
+			<macro name="AIMP" guid="{DCF50AE2-0000-4381-0001-4F0F5A9E9803}" type="shell">
+				<event type="shell" shellcmd="C:\Utilities\AIMP\AIMP2.exe" shelldir="C:\Utilities\AIMP\"/>
+			</macro>
+			<macro name="QuickMacro 69" guid="{E33232CB-9361-4155-B4F2-94758BEA25DF}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+			</macro>
+			<macro name="QuickMacro 70" guid="{FF251DAD-FDD3-4280-9B82-7305BA83E7AA}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 71" guid="{B1F8EE70-565F-4FC0-85AE-8DA133548CD3}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 72" guid="{FD6AC42F-4B5C-49B4-A85F-7FB0CD3EEEF7}" type="multikey">
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="SPACEBAR"/>
+				<event type="keyup" keyname="SPACEBAR"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+			</macro>
+			<macro name="QuickMacro 73" guid="{FEC64788-BBF9-498C-B912-F8719627CB8F}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 74" guid="{2A78FD3C-08BD-410C-8C0F-629C6288ACD1}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="END"/>
+				<event type="keyup" keyname="END"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="X"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="X"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LEFT"/>
+				<event type="keyup" keyname="LEFT"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="BACKSPACE"/>
+				<event type="keyup" keyname="BACKSPACE"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="LCTRL"/>
+				<event type="keydown" keyname="V"/>
+				<event type="keyup" keyname="LCTRL"/>
+				<event type="keyup" keyname="V"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+			<macro name="QuickMacro 75" guid="{2D2E3C8A-6BF6-41F5-AF8F-B52ABFA33A9B}" type="multikey">
+				<event type="keydown" keyname="F2"/>
+				<event type="keyup" keyname="F2"/>
+				<event type="keydown" keyname="HOME"/>
+				<event type="keyup" keyname="HOME"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keydown" keyname="LSHIFT"/>
+				<event type="keydown" keyname="RIGHT"/>
+				<event type="keyup" keyname="RIGHT"/>
+				<event type="keyup" keyname="LSHIFT"/>
+				<event type="keydown" keyname="MINUS"/>
+				<event type="keyup" keyname="MINUS"/>
+				<event type="keydown" keyname="DELETE"/>
+				<event type="keyup" keyname="DELETE"/>
+				<event type="keydown" keyname="ENTER"/>
+				<event type="keyup" keyname="ENTER"/>
+				<event type="keydown" keyname="DOWN"/>
+				<event type="keyup" keyname="DOWN"/>
+			</macro>
+		</macros>
+		<assignments>
+			<assignment gamekey="G18" shiftstate="1" macroguid="{DCF50AE2-0011-4381-0001-4F0F5A9E9803}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G14" shiftstate="1" macroguid="{DCF50AE2-000D-4381-0001-4F0F5A9E9803}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G17" shiftstate="1" macroguid="{DCF50AE2-0010-4381-0001-4F0F5A9E9803}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G2" shiftstate="1" macroguid="{DCF50AE2-0001-4381-0001-4F0F5A9E9803}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G3" shiftstate="1" macroguid="{DCF50AE2-0002-4381-0001-4F0F5A9E9803}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G1" shiftstate="1" macroguid="{DCF50AE2-0000-4381-0001-4F0F5A9E9803}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G6" shiftstate="1" macroguid="{DCF50AE2-0005-4381-0001-4F0F5A9E9803}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G5" shiftstate="1" macroguid="{DCF50AE2-0004-4381-0001-4F0F5A9E9803}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G4" shiftstate="1" macroguid="{DCF50AE2-0003-4381-0001-4F0F5A9E9803}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G8" shiftstate="1" macroguid="{DCF50AE2-0007-4381-0001-4F0F5A9E9803}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G13" shiftstate="1" macroguid="{70908FFC-32CC-4129-863C-1D5D75831DB8}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G16" shiftstate="1" macroguid="{DCF50AE2-000F-4381-0001-4F0F5A9E9803}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G18" shiftstate="3" macroguid="{DCF50AE2-0011-4381-0201-4F0F5A9E9803}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G2" shiftstate="2" macroguid="{EB5DB64C-4A5D-4D38-B949-7EDAC124A5F1}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G1" shiftstate="2" macroguid="{2D2E3C8A-6BF6-41F5-AF8F-B52ABFA33A9B}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G3" shiftstate="2" macroguid="{C392E3B2-11C3-4B79-9060-5C69B88F2C29}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G7" shiftstate="2" macroguid="{618F5B6D-EBDB-40C2-8FD4-5047D9BA492B}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G9" shiftstate="2" macroguid="{EDA9D7BC-90FA-48A7-B492-E5832DA0C266}" playmode="oneshot" family="keyboard"/>
+			<assignment gamekey="G1" shiftstate="1" macroguid="{DCF50AE2-0000-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G2" shiftstate="1" macroguid="{DCF50AE2-0001-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G3" shiftstate="1" macroguid="{DCF50AE2-0002-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G4" shiftstate="1" macroguid="{DCF50AE2-0003-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G5" shiftstate="1" macroguid="{DCF50AE2-0004-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G6" shiftstate="1" macroguid="{DCF50AE2-0005-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G7" shiftstate="1" macroguid="{DCF50AE2-0006-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G8" shiftstate="1" macroguid="{DCF50AE2-0007-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G9" shiftstate="1" macroguid="{DCF50AE2-0008-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G10" shiftstate="1" macroguid="{DCF50AE2-0009-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G11" shiftstate="1" macroguid="{DCF50AE2-000A-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G12" shiftstate="1" macroguid="{DCF50AE2-000B-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G13" shiftstate="1" macroguid="{DCF50AE2-000C-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G14" shiftstate="1" macroguid="{DCF50AE2-000D-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G15" shiftstate="1" macroguid="{DCF50AE2-000E-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G16" shiftstate="1" macroguid="{DCF50AE2-000F-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G17" shiftstate="1" macroguid="{DCF50AE2-0010-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G18" shiftstate="1" macroguid="{DCF50AE2-0011-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G19" shiftstate="1" macroguid="{DCF50AE2-0012-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G20" shiftstate="1" macroguid="{DCF50AE2-0013-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G21" shiftstate="1" macroguid="{DCF50AE2-0014-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G22" shiftstate="1" macroguid="{DCF50AE2-0015-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G23" shiftstate="1" macroguid="{DCF50AE2-0016-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G24" shiftstate="1" macroguid="{DCF50AE2-0017-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G25" shiftstate="1" macroguid="{DCF50AE2-0018-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G26" shiftstate="1" macroguid="{DCF50AE2-0019-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G27" shiftstate="1" macroguid="{DCF50AE2-001A-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G28" shiftstate="1" macroguid="{DCF50AE2-001B-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+			<assignment gamekey="G29" shiftstate="1" macroguid="{DCF50AE2-001C-4381-0002-4F0F5A9E9803}" playmode="oneshot" family="lhc"/>
+		</assignments>
+		<target>
+			
+		</target>
+		<script>
+			function OnEvent(event, arg)
+    PressKey("/");
+    ReleaseKey("/");
+	--OutputLogMessage("event = %s, arg = %s\n", event, arg);
+end
+		</script>
+	</profile>
+</profiles>
