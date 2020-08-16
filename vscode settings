@@ -1,82 +1,67 @@
 {
-    "python.pythonPath": "/usr/local/bin/python3.7",
-    "editor.formatOnPaste": true,
-    "editor.wordWrap": "on",
-    "explorer.confirmDelete": false,
-    "python.linting.flake8Args": [
-        "--max-line-length=120",
-        "--ignore=E402,F841,F401,E302,E305"
-    ],
-    "editor.multiCursorModifier": "ctrlCmd",
-    "git.enableSmartCommit": true,
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.showExpandedAbbreviation": "always",
-    "emmet.showSuggestionsAsSnippets": true,
-    "editor.snippetSuggestions": "top",
-    "editor.quickSuggestions": true,
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact",
-        "vue-html": "html",
-        "plaintext": "jade"
-    },
-    "javascript.validate.enable": false,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "bracket-pair-colorizer-2.colors": [
-        "#ffffff"
-    ],
-    "color-highlight.markerType": "background",
-    "workbench.colorTheme": "Plastic",
-    "explorer.confirmDragAndDrop": false,
-    "window.zoomLevel": 0,
-    "workbench.startupEditor": "newUntitledFile",
-    "sync.gist": "09407166ffc3d248f4595ce6506d02a6",
-    "workbench.activityBar.visible": true,
-    "workbench.colorCustomizations": {
-        "activityBarBadge.background": "#FF7042",
-        "list.activeSelectionForeground": "#FF7042",
-        "list.inactiveSelectionForeground": "#FF7042",
-        "list.highlightForeground": "#FF7042",
-        "scrollbarSlider.activeBackground": "#FF704250",
-        "editorSuggestWidget.highlightForeground": "#FF7042",
-        "textLink.foreground": "#FF7042",
-        "progressBar.background": "#FF7042",
-        "pickerGroup.foreground": "#FF7042",
-        "tab.activeBorder": "#FF7042",
-        "notificationLink.foreground": "#FF7042",
-        "editorWidget.resizeBorder": "#FF7042",
-        "editorWidget.border": "#FF7042",
-        "settings.modifiedItemIndicator": "#FF7042",
-        "settings.headerForeground": "#FF7042",
-        "panelTitle.activeBorder": "#FF7042",
-        "breadcrumb.activeSelectionForeground": "#FF7042",
-        "menu.selectionForeground": "#FF7042",
-        "menubar.selectionForeground": "#FF7042"
-    },
-    "extensions.ignoreRecommendations": true,
-    "editor.formatOnSave": true,
-    "workbench.iconTheme": "eq-material-theme-icons",
-    "editor.minimap.enabled": true,
-    "breadcrumbs.enabled": false,
-    "editor.renderWhitespace": "all",
-    "editor.renderControlCharacters": true,
-    "vsicons.dontShowNewVersionMessage": true,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "terminal.external.osxExec": "/bin/bash",
-    "terminal.integrated.shellArgs.windows": [
-        "-l"
-    ],
-    "terminal.integrated.shellArgs.linux": [
-        "-l"
-    ],
-    "terminal.integrated.shellArgs.osx": [
-        "-l"
-    ],
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "diffEditor.ignoreTrimWhitespace": false,
-    "git.confirmSync": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "python.pythonPath": "/usr/bin/python3",
+  "workbench.colorTheme": "Plastic",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "explorer.confirmDelete": false,
+  "python.linting.flake8Args": [
+    "--max-line-length=120",
+    "--ignore=E402,F841,F401,E302,E305"
+  ],
+  "editor.multiCursorModifier": "ctrlCmd",
+  "sync.gist": "09407166ffc3d248f4595ce6506d02a6",
+  "terminal.integrated.fontFamily": "hack",
+  "git.enableSmartCommit": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.snippetSuggestions": "top",
+  "editor.quickSuggestions": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "plaintext": "jade"
+  },
+  "workbench.activityBar.visible": true,
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#FF7042",
+    "list.activeSelectionForeground": "#FF7042",
+    "list.inactiveSelectionForeground": "#FF7042",
+    "list.highlightForeground": "#FF7042",
+    "scrollbarSlider.activeBackground": "#FF704250",
+    "editorSuggestWidget.highlightForeground": "#FF7042",
+    "textLink.foreground": "#FF7042",
+    "progressBar.background": "#FF7042",
+    "pickerGroup.foreground": "#FF7042",
+    "tab.activeBorder": "#FF7042",
+    "notificationLink.foreground": "#FF7042",
+    "editorWidget.resizeBorder": "#FF7042",
+    "editorWidget.border": "#FF7042",
+    "settings.modifiedItemIndicator": "#FF7042",
+    "settings.headerForeground": "#FF7042",
+    "panelTitle.activeBorder": "#FF7042",
+    "breadcrumb.activeSelectionForeground": "#FF7042",
+    "menu.selectionForeground": "#FF7042",
+    "menubar.selectionForeground": "#FF7042"
+  },
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.external.osxExec": "/bin/bash",
+  "terminal.integrated.shellArgs.windows": ["-l"],
+  "terminal.integrated.shellArgs.linux": ["-l"],
+  "terminal.integrated.shellArgs.osx": ["-l"],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.minimap.enabled": true,
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "git.confirmSync": false,
+  "window.zoomLevel": 0,
+  "javascript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "extensions.ignoreRecommendations": true
 }
