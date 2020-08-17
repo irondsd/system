@@ -3,16 +3,16 @@
 	"detect_indentation": false,
 	"font_face": "Menlo",
 	"font_size": 12,
-    "line_padding_bottom": 1,
-    "line_padding_top": 1,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"open_files_in_new_window": false,
 	"spell_check": false,
 	"tab_size": 4,
-	"theme": "Boxy Tomorrow.sublime-theme",
+	"theme": "Curiosity.sublime-theme",
 	"theme_size_xs": true,
 	"translate_tabs_to_spaces": true,
 	"word_wrap": true
