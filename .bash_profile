@@ -10,7 +10,7 @@ httpHeaders () { /usr/bin/curl -I -L $@ ; }         # httpHeaders:  Grabs header
 alias ..="cd .."									# .. 			Go back
 alias ls='ls -GFh'									# ls 			# Preferred 'ls' implementation
 alias hosts="sudo open -a sublime\ text /etc/hosts" # hosts  		Open hosts file in Sublime Text
-alias python="python3"                    			# python        Default python enviroment 
+alias python="python3"                    			# python        Default python enviroment
 alias pip='pip3'									# pip:          Preferred pip instead of pip3
 alias edit='subl'                        		    # edit:         Opens any file in sublime editor
 alias f='open -a Finder ./'             		    # f:            Opens current directory in MacOS Finder
@@ -34,4 +34,4 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export BASH_SILENCE_DEPRECATION_WARNING=1
-export PATH=/usr/local/Cellar/python/3.7.5/bin/python3/bin:$PATH
+export PATH=/usr/local/Cellar/python/3.7.5/bin/python3/bin:$PATH%
