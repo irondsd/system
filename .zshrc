@@ -1,21 +1,17 @@
 export PATH
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export BASH_SILENCE_DEPRECATION_WARNING=1
-export PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"
 export ZSH="/Users/irondsd/.oh-my-zsh"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"
+export PATH=/.npm-global/bin:$PATH
 
 ZSH_THEME="irondsd"
-ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="false"
+unsetopt correct_all
 plugins=(
     git
     osx
     zsh-autosuggestions
-    # last-working-dir
     dotenv
     brew
     sudo
@@ -36,16 +32,17 @@ ff () { osascript -e 'tell application "Finder"'\
  -e 'end if' -e 'end tell'; };\
 
 alias ..="cd .."                                    # ..            Go back
+alias ...="cd ../.."                                # ...           Go back 2 levels
 alias ls='ls -GFh'                                  # ls            # Preferred 'ls' implementation
 alias hosts="sudo open -a sublime\ text /etc/hosts" # hosts         Open hosts file in Sublime Text
-alias python="python3"                              # python        Default python enviroment 
+alias python="python3"                              # python        Default python enviroment
 alias pip='pip3'                                    # pip:          Preferred pip instead of pip3
 alias edit='subl'                                   # edit:         Opens any file in sublime editor
 alias f='open -a Finder ./'                         # f:            Opens current directory in MacOS Finder
 alias ~="cd ~"                                      # ~:            Go Home
 alias showhidden='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hidehidden='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
-# alias exec='chmod u+x'                            # exec          Sets the file to be executable
+alias exec='chmod u+x'                              # exec          Sets the file to be executable
 alias pg="echo 'Pinging Google' && ping google.com" # pg            ping google
 alias zshrc='code ~/.zshrc'
 alias myip="curl http://ipecho.net/plain; echo"
@@ -55,3 +52,7 @@ alias ohmyzsh="f ~/.oh-my-zsh"
 alias rna="react-native run-android"
 alias rni="react-native run-ios"
 alias ut="python ~/bin/ut.py"
+alias cll="~/bin/cll.sh"
+alias online="~/bin/online.sh"
+alias noc="~/bin/noc.sh"
+alias not="~/bin/not.sh"
