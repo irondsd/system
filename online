@@ -1,0 +1,11 @@
+#!/bin/bash
+# irondsd
+# 24 Aug 2020
+
+HOST="8.8.8.8"
+ping -c1 $HOST &> /dev/null
+if [ "$?" -eq "0" ]; then
+    printf "🌍\e[1m\e[32monline\e[39m\e[21m\n"; exit 0
+else 
+    printf "\e[39m\e[1moffline\e[21m\n"; exit 1
+fi
