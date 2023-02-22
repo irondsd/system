@@ -1,13 +1,8 @@
 export PATH
 export ZSH="/Users/irondsd/.oh-my-zsh"
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-export PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"
 export PATH=/.npm-global/bin:$PATH
 export PATH="$HOME/bin:$PATH"
-export GEM_HOME=$HOME/.gem
-export PATH=$GEM_HOME/bin:$PATH
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+export PATH="$PATH:/Users/irondsd/.kit/bin"
 
 ZSH_THEME="ggn00b"
 ENABLE_CORRECTION="false"
@@ -25,6 +20,7 @@ plugins=(
     )
 
 source $ZSH/oh-my-zsh.sh
+eval $(/opt/homebrew/bin/brew shellenv)
 
 #hidden files
 alias showhidden='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
